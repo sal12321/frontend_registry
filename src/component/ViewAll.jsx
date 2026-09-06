@@ -1,6 +1,7 @@
 
 import {useEffect, useState} from "react"
 import axios from "axios"
+import '../CSS/ViewAll.css'
 
 
 export default function ViewAll() {
