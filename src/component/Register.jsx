@@ -21,7 +21,7 @@ export default function Register(){
 
         try {
             console.log(formData)
-         await axios.post("http://localhost:8080/api/addUser",
+         await axios.post("http://ec2-98-94-95-173.compute-1.amazonaws.com:8080/api/addUser",
         formData
         )
         console.log("User register success");
