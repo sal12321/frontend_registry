@@ -51,8 +51,6 @@ function App() {
     {activePage==="view all" ?  <ViewAll  /> : ""}
     {/* {activePage==="register" ?  <Register /> : ""} */}
 
-    
-    <h2></h2>
     </>
   )
 

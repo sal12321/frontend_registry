@@ -1,5 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+        margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #a4ed63;
+    color: #222;
 }
 
 h1 {
@@ -8,7 +13,12 @@ h1 {
 }
 
 ul {
-    max-width: 500px;
+   display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+
+    max-width: 800px;
     margin: 30px auto;
     padding: 0;
     list-style: none;
@@ -23,5 +33,17 @@ li {
 }
 
 li:hover {
-    background: #eaeaea;
+    background: #868686;
 }
+
+/* .container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+    align-self: center;
+    width: 90%;
+    height: auto;
+    flex: 100 100px ;
+
+} */

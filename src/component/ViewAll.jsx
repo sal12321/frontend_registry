@@ -35,7 +35,7 @@ export default function ViewAll() {
         <>
         <h1>All Registered Users</h1>
 
-        <ul>
+        <ul className="container">
             {
                 Users.map((user) => {
                     return <li key = {user._id} >{user.name}</li>
