@@ -36,11 +36,14 @@ function App() {
 
   return (
     <>
-
+    <div className="buttons">
     <button name='register' onClick={handleClick} >Register</button>
     <button name='update' onClick={handleClick}>Update</button>
-    <button name='delete' onClick={handleClick}>Delete</button>
+    {/* <button name='delete' onClick={handleClick}>Delete</button> */}
     <button name='view all' onClick={handleClick}>View All </button>
+    </div>
+
+
 
 
     {activePage==="register" ?  <Register /> : ""}

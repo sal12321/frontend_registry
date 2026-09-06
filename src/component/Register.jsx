@@ -1,5 +1,6 @@
 import {useState} from "react"
 import axios from "axios"
+import '../CSS/Register.css'
 
 
 export default function Register(){
@@ -47,6 +48,10 @@ return (
     <>
     <h2>User Register</h2>
 
+<div className="buttons">
+
+
+
     <form action="" onSubmit ={handleSubmit} >
 
         <input
@@ -79,6 +84,8 @@ return (
 
         
     </form>
+
+    </div>
 
     </>
 )
