@@ -13,7 +13,7 @@ export default function ViewAll() {
             try {
                const response = await  axios.get("http://ec2-98-94-95-173.compute-1.amazonaws.com:8080/api/getAllUsers");
                console.log("movies data got fetched");
-               console.log(response);
+               
 
                setUsers(response.data);
 
