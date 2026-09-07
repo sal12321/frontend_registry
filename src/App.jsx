@@ -51,6 +51,11 @@ function App() {
     {activePage==="view all" ?  <ViewAll  /> : ""}
     {/* {activePage==="register" ?  <Register /> : ""} */}
 
+
+    <div className="board">
+      <h1>This app is made on react vite and deployed in react vite, CICD on Github Actions</h1>
+    </div>
+
     </>
   )
 
