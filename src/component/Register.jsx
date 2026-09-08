@@ -46,7 +46,7 @@ export default function Register(){
 return (
 
     <>
-    <h2>User Register</h2>
+    <h2 className="compTitle">User Register</h2>
 
 <div className="buttons">
 

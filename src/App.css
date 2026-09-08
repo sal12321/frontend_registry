@@ -199,3 +199,12 @@
   width: 5rem;
   height: 2rem;
 }
+
+.board h1{
+  font-size: 1rem;
+  padding: 1rem;
+  background-color:antiquewhite;
+  width: fit-content;
+  margin: 0 auto 1rem auto;
+  border-radius: 5px;
+}
