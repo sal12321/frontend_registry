@@ -11,16 +11,6 @@ function App() {
   const [activePage, setActivePage] = useState("register");
   var Users = null;
 
-  // useEffect(( ()=>{
-  //   console.log("in useEffect")
-  //   axios.get("http://localhost:8080/api/message")
-  //   .then((res) => setMessage(res.data.message))
-  //   .catch((err) => {
-  //     console.error(err);
-  //     setMessage(err)
-  //   })
-  // }), [])
-
   const handleClick = async (e) =>{
 
     setActivePage(e.target.name);
@@ -49,7 +39,7 @@ function App() {
     {activePage==="register" ?  <Register /> : ""}
     {activePage==="update" ?  <Update /> : ""}
     {activePage==="view all" ?  <ViewAll  /> : ""}
-    {/* {activePage==="register" ?  <Register /> : ""} */}
+
 
 
     <div className="board">
